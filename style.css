@@ -1,0 +1,162 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+} */
+
+body {
+  background-color: #b5a789;
+  margin: 0px;
+  color: #312e2b;
+}
+
+#boardCell {
+  /* background-color: aqua; */
+  /* margin: auto; */
+  top: 20%;
+}
+
+#board {
+  top: 10rem;
+  position: relative;
+  /* background: url(./images/board.jpg); */
+  width: 587px;
+  height: 587px;
+  margin: auto;
+}
+
+table {
+  position: absolute;
+  top: 32px;
+  left: 32px;
+  border-spacing: 0px;
+}
+
+td {
+  width: 64px;
+  height: 64px;
+  border-spacing: 0px;
+}
+
+.bishop--white {
+  background: url(./images/bishop1.png) no-repeat center center;
+}
+
+.bishop--white:hover {
+  opacity: 0.7;
+}
+
+.bishop--black {
+  background: url(./images/bishop.png) no-repeat center center;
+}
+
+.bishop--black:hover {
+  opacity: 0.7;
+}
+
+.knight--white {
+  background: url(./images/knight1.png) no-repeat center center;
+}
+
+.knight--white:hover {
+  opacity: 0.7;
+}
+
+.knight--black {
+  background: url(./images/knight.png) no-repeat center center;
+}
+
+.knight--black:hover {
+  opacity: 0.7;
+}
+
+.king--white {
+  background: url(./images/king1.png) no-repeat center center;
+}
+
+.king--white:hover {
+  opacity: 0.7;
+}
+
+.king--black {
+  background: url(./images/king.png) no-repeat center center;
+}
+
+.king--black:hover {
+  opacity: 0.7;
+}
+
+.pawn--white {
+  background: url(./images/pawn1.png) no-repeat center center;
+}
+
+.pawn--white:hover {
+  opacity: 0.7;
+}
+
+.pawn--black {
+  background: url(./images/pawn.png) no-repeat center center;
+}
+
+.pawn--black:hover {
+  opacity: 0.7;
+}
+
+.queen--white {
+  background: url(./images/queen1.png) no-repeat center center;
+}
+
+.queen--white:hover {
+  opacity: 0.7;
+}
+
+.queen--black {
+  background: url(./images/queen.png) no-repeat center center;
+}
+
+.queen--black:hover {
+  opacity: 0.7;
+}
+
+.rook--white {
+  background: url(./images/rook1.png) no-repeat center center;
+}
+
+.rook--white:hover {
+  opacity: 0.7;
+}
+
+.rook--black {
+  background: url(./images/rook.png) no-repeat center center;
+}
+
+.rook--black:hover {
+  opacity: 0.7;
+}
+
+.selected {
+  background-color: blue !important;
+}
+
+.possible {
+  background-color: yellow !important;
+  opacity: 0.7 !important;
+}
+
+.killable {
+  background-color: red !important;
+  opacity: 0.85 !important;
+}
+
+.square--black {
+  border: solid black 1px;
+  background-color: green;
+}
+
+.square--white {
+  border: solid black 1px;
+  background-color: white;
+}
